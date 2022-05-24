@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Officer Login</title>
+  <style>
+    body {
+        background-image: url('https://lh3.googleusercontent.com/psGFlP0xcMfJ8eFLEbLAX-RPqh6QoFcUSSM-Q_YCuhYCZYGz3gcEhsoYDbiOZX_64sd-Bho6zRf-FVeNKtZkijgtYu6VAX0zanxJizW4KEdXQddHJ2UHNs5y5Z743sNKGWMXZrSBwfxR5TRKVv2Vosg1w4mVGvC6XBexVbzxD3IHR1JOI3JaNstmlQouJi_uA2DVryHGj4f2gcvCVKB6grevo_eoT5tIN-Q0yoJjDDXOmea7qXwiNXUtxUYYF8UykJ1e_vVMW1IqkmlRNJvt_scHWbVo12bpq6gyYcQMC_CljIPOMG9nzdnpYHFgIyaE8-2yoheUcy5iiyd_bymgaEd7SanM4E8oBuK7cnu1dFCXtppAbHM9ovDOnZGig2Bgg-2NEkmNpanYQdIqPMOpD3cpIqNnTMvgBEltsnL0VDAVsOYxhUphC0N2cWF3s0Ug5R7zEcIHLD6cE1WJoUpwnGGAMJgL0zRi3rOpLQ1a5s1fOpfCpYId-zLcm9PwiDXLVQPYpPAkduXiladsJKvwt7C2Qud2oPB23kiNWO_CYyV7SZyHqJOnkbA3KnhtHEKHvE5SiCgGaj1Hcj3A9l1i6hb_Jil4Foo6ywmCy78T3dA-Qj7dLhnxNNsqBwk9PigflycYh41EI8ZlBpK-ecswcWmKMCtZoTu5Fp04YylxPKWKFhSh3BiWhrwZDX9Fn2Lbh_MqrjAC-p7jlMlEkl7gSkQa=w1258-h568-no?authuser=0');
+    }
+    
+    </style>
+</head>
+<body>
+  <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-black justify-center">
+    <a href="http://127.0.0.1:5500/index.html" class="mr-5 hover:text-gray-900">Home</a>
+    <a href="http://127.0.0.1:5500/about.html" class="mr-5 hover:text-gray-900">About</a>
+    <a href="http://127.0.0.1:5500/contact.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+  </nav>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"></h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
+      </div>
+      <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+        <div class="relative flex-grow w-full">
+          <label for="full-name" class="leading-7 text-sm text-white">ID</label>
+          <input type="text" id="full-name" name="full-name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative flex-grow w-full">
+          <label for="email" class="leading-7 text-sm text-white">Password</label>
+          <input type="Password" id="Password" name="Password" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <form method="get" class="ml-4 inline-flex text-black background-color:#e7e7e7 border-0 py-2 px-6 focus:outline-none bg-white rounded text-lg" action="http://127.0.0.1:5500/Officer%20Login.html">
+          <button type="submit">Login</button>
+      </form>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

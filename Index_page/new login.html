@@ -1,0 +1,109 @@
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+<link rel="stylesheet" href="style.css">
+<title>Document</title>
+
+<style>
+body{
+    background-image: url('https://www.ukecc.net/sites/default/files/Complaint%20letter.jpg');
+    margin: 0;
+     padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    }
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    padding: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box; 
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    }
+.box h2{
+    margin: 0 0 30px;
+    padding: 0px;
+    color: #fff ;   
+    text-align: center;
+}
+.box .input-box {
+        position: relative;
+        color: #fff;
+    }
+.box .input-box input{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    }
+.box.input-box label{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+.box.input-box input:focus label, 
+.box .input-box input:valid label {
+top: -18px;
+left: 0px;
+color: #03a9f4;
+font-size: 12px;
+}
+.box input[type="submit"]{
+background: transparent;
+border: none;
+outline: none;
+color: #fff;
+background: #227be3;
+padding: 10px 20px;
+border-radius: 5px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+<body>
+<div class="box">
+<h2>COMPLAINT HERE</h2>
+<form action="">
+<div class="input-box">    
+<input type="text">
+<label for="">Address</label>
+</div>
+<div class="input-box">
+<input type="number">
+<label for="">Mobile</label>
+</div>
+<br>
+<br>
+<input type="submit">
+</div>
+
+
+
+</form>
+
+</div>
+
+</body>
+
+</html>

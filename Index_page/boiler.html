@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<section>
+  <img class="mySlides" src="https://lifebeyondnumbers.com/wp-content/uploads/2019/01/National-Emblem-of-India.jpg"
+  style="width:100%">
+  <img class="mySlides" src="https://mcmscache.epapr.in/post_images/website_350/post_18389809/full.jpg"
+  style="width:100%">
+  <img class="mySlides" src="https://images.indianexpress.com/2018/06/red-fort-759-getty-images.jpg"
+  style="width:100%">
+</section>
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>+
+, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
